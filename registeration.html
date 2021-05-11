@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registeration.css">
+    <title>Sign-Up@Rent-the-Rim</title>
+</head>
+<body>
+    <nav>
+        <a href="login.html"><img src="brand-logo.png" alt="" id="brand-logo"></a>
+    </nav>
+    <div class="middle">
+    <img src="Signup.png" alt="Sign Up" id="signup">
+    <form action="" class="register">
+        <label for="fname" id="fname" >Firstname:</label>
+        <input type="text" id="fname" name="fname" required placeholder="  Enter Firstname.."><br>
+        <label for="lname" id="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"required placeholder="  Enter Lastname.."><br>
+        <label for="idproof">ID Proof:</label>
+        <select name="idproof" id="idproof" required>
+            <option value="" selected disabled hidden>Select One</option>
+            <option value="driving_license">Driver's License</option>
+            <option value="aadhar">Aadhar Card</option>
+            <option value="passport">Passport</option>
+        </select><br>
+        <label for="idnum" id="idnum">ID Number:</label>
+        <input type="text" id="idnum" name="idnum"required placeholder="  Enter ID Number.."><br>
+        <label for="mailid" id="mailid" >Mail ID:</label>
+        <input type="email" id="mailid" name="mailid"required placeholder="  Enter email ID"><br>
+        <label for="passwd" id="passwd" >Password:</label>
+        <input type="password" id="passwd" name="passwd"required placeholder="  Enter Password"><br>
+        <label for="repasswd" id="repasswd" >Reenter Password:</label>
+        <input type="password" id="repasswd" name="repasswd"required placeholder="  Re-Enter Password">
+        <br>
+        <input type="submit" id="createacc" name="createacc" value="Create an Account">
+    </form>
+    </div>
+</body>
+</html>

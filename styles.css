@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body{
+    background-color: #F4EEFF;
+}
+nav{
+    background-color: #fff;
+    padding:40px;
+}
+.brand-logo{
+    width: 30%;
+}
+.nav-bar-menu{
+    width: 1%;
+    float: right; 
+    margin-right: 50px;
+    margin-top: -50px;
+}
+/* .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: black;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+
+} */
+.img1{
+    width:40%;
+    margin-left: 40px;
+}
+.heading1{
+    float: right;
+    padding:5% 10% 10% 8%;
+    margin-right: 100px;
+    margin-top: 90px 0 110px 0px;
+    
+}
+.top{
+    margin: 100px 0 100px 0;
+}
+.top-text{
+    text-align: center;
+}
+.img2{
+    width: 140%;
+    float: right;
+    margin-right: -0px;
+    mix-blend-mode: multiply;
+    
+}
+.location{
+    text-align: center;
+    padding: 100px 0 ;
+}
+.form-1{
+    padding:5px;
+    line-height: 1.5;
+    margin-left:50px;
+    
+}
+.form-1 label,input{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+/* .container .top{
+margin:50px 0 100px 0; 
+} */
+.middle{
+    margin-left: 0;
+    margin-right: 0;
+}
+.select-model{
+    display: inline-block;
+    align-items: center;
+}
+.img3{
+    width:50%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.model{
+    margin:200px 0 150px 0;
+}
+.payment{
+    margin-top: 200px;
+    width:100%;
+    height: 700px;
+    position: absolute;
+}
+.payment:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url('img/image\ 9.png');
+}
+.left h3{
+    font-size: 35px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight:900;
+    margin-bottom: 25px;
+}
+.left{
+    text-align: center;
+    padding-top: 300px;
+    position: relative;
+    /* font-family: Oxygen; */
+
+}
+.right{
+    text-align: center;
+    padding-top: 400px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: #fff;
+    position: relative;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight:900;
+    font-size: 45px;
+line-height: 51px;
+}
+.right h3{
+    font-size: 28px;
+    font-family: Oxygen;
+    font-style: normal;
+    /* font-weight:900; */
+}
+.from-loc-label{
+    font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 32px;
+/* display: flex;
+align-items: center; */
+
+color: #6848A0;
+}
+.from-to-label{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    /* display: flex;
+    align-items: center; */
+    
+    color: #6848A0;
+}
+.from-loc-box{
+
+width: 270px;
+height: 56px;
+font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+background: rgba(104, 72, 160, 0.35);
+border-radius: 20px;
+border-style: none;
+font-size: 25px;
+color: #fff;
+}
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.from-to-box{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold; 
+width: 270px;
+height: 56px;
+font-size: 25px;
+background: rgba(104, 72, 160, 0.35);
+border-radius: 20px;
+border-style: none;
+color: #fff;
+}
+.from-to-box:hover{
+    color: grey;
+}
+.date-time-box{
+    width: 270px;
+height: 56px;
+border-style: none;
+font-size: 25px;
+background: rgba(104, 72, 160, 0.35);
+border-radius: 20px;
+font-size: 18px;
+color: #fff;
+}
+.car-model{
+    width: 320px;
+height: 66px;
+
+background: rgba(104, 72, 160, 0.35);
+border-radius: 25px;
+font-size: 18px;
+margin-top: 50px;
+color: #fff;
+font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+}
+.payment-option{
+    margin-top: 25px;
+    font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 38px;
+align-items: center;
+border-radius: 25px;
+width: 320px;
+height: 66px;
+color: #6848A0;
+}
+.submit-button{
+    font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 51px;
+align-items: center;
+text-align: center;
+background-color: #6848A0;
+color: #FFFFFF;
+border-radius: 25px;
+width: 250px;
+height: 60px;
+margin-top: 50px;
+}
+.submit-button:hover{
+    background-color:#483d8b;
+    
+}

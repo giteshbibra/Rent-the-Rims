@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body{
+background: #F4EEFF;
+}
+.middle{
+    text-align: center;
+}
+#signup{
+    margin: 20px 0 20px 0;
+}
+.register{
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 45px;
+
+color: #6848A0;
+}
+#fname{
+    margin: 15px 5px;
+}
+#lname{
+    margin: 15px 5px; 
+}
+#idproof{
+    margin: 15px 5px;
+}
+#idnum{
+    margin: 15px 5px;
+}
+#mailid{
+    margin: 15px 5px;
+}
+#passwd{
+    margin: 15px 5px;
+}
+#repasswd{
+    margin: 15px 5px;
+}
+#createacc{
+    margin: 20px 5px;
+    width: 294px;
+height: 60px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 38px;
+align-items: center;
+text-align: center;
+background-color: #6848A0;
+color: #FFFFFF;
+cursor:pointer;
+}
+#createacc:hover{
+    background-color: #483d8b;
+}
+input{
+width: 350px;
+height: 45px;
+
+background: rgba(255, 254, 254, 0.51);
+border-radius: 39px;
+border-style: none;
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 38px;
+
+}
+#idproof{
+font-family: Oxygen;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 45px;
+align-items: center;
+text-align: right;
+border-radius: 39px;
+border-style: none;
+color: #6848A0;
+width: 350px;
+height: 45px;
+}
+
+#brand-logo{
+    padding: 5px;
+    height: auto;
+    width: 20%;
+}
